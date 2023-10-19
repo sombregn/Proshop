@@ -18,8 +18,6 @@ const LoginScreen = () => {
 
   const [login, { isLoading }] = useLoginMutation();
   
-  console.log(login);
-
   const { userInfo } = useSelector((state) => state.auth);
 
   const { search } = useLocation();
